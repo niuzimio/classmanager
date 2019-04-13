@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img2"
+    tools:context=".view.InfoMoView.Login">
+
+
+    <Button
+
+        android:id="@+id/button"
+
+        android:layout_width="280dp"
+
+        android:layout_height="32dp"
+
+        android:layout_marginStart="8dp"
+
+        android:layout_marginTop="16dp"
+
+        android:layout_marginEnd="8dp"
+
+        android:background="#0066FF"
+
+        android:text="登陆"
+
+        android:textColor="#ffffff"
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.504"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+
+
+    <EditText
+
+        android:id="@+id/editText2"
+
+        android:layout_width="280dp"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="8dp"
+
+        android:layout_marginTop="16dp"
+
+        android:layout_marginEnd="8dp"
+
+        android:ems="10"
+
+        android:hint="密码"
+
+        android:inputType="textPassword"
+
+        android:selectAllOnFocus="false"
+
+        android:singleLine="false"
+
+        android:textColor="#ffffff"
+
+        android:textColorHint="#ffffff"
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/editText1" />
+
+
+    <EditText
+
+        android:id="@+id/editText1"
+
+        android:layout_width="280dp"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="8dp"
+
+        android:layout_marginTop="130dp"
+
+        android:layout_marginEnd="8dp"
+
+        android:ems="10"
+
+        android:hint="账号"
+
+        android:inputType="textPersonName"
+
+        android:textColor="#ffffff"
+
+        android:textColorHint="#ffffff"
+
+        android:textSize="18sp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.503"
+
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+
+        android:id="@+id/button2"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="23dp"
+
+        android:layout_marginLeft="42dp"
+
+        android:layout_marginStart="42dp"
+
+        android:layout_marginTop="8dp"
+
+        android:background="@android:color/transparent"
+
+        android:text="忘记密码？"
+
+        android:textAllCaps="false"
+
+        android:textColor="#0066FF"
+
+        android:textSize="12sp"
+
+        android:typeface="normal"
+
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+
+    <Button
+
+        android:id="@+id/button3"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="23dp"
+
+        android:layout_marginTop="8dp"
+
+        android:layout_marginEnd="42dp"
+
+        android:background="@android:color/transparent"
+
+        android:text="一键清空"
+
+        android:textAllCaps="false"
+
+        android:textColor="#0066FF"
+
+        android:textSize="12sp"
+
+        android:typeface="normal"
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

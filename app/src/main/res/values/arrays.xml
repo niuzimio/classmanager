@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spingarr">
+        <item>班主任</item>
+        <item>辅导员</item>
+        <item>班长</item>
+        <item>学习委员</item>
+        <item>体育委员</item>
+        <item>文艺组织委员</item>
+        <item>生活委员</item>
+        <item>团支书</item>
+    </string-array>
+
+    <string-array name="spingarr1">
+        <item>软件1501</item>
+        <item>软件1502</item>
+        <item>计算机1501</item>
+        <item>计算机1502</item>
+    </string-array>
+    <string-array name="spingarr3">
+        <item>全部</item>
+        <item>班主任</item>
+        <item>辅导员</item>
+        <item>班长</item>
+        <item>学习委员</item>
+        <item>体育委员</item>
+        <item>文艺组织委员</item>
+        <item>生活委员</item>
+        <item>团支书</item>
+    </string-array>
+    <string-array name="spingarr2">
+        <item>全部</item>
+        <item>软件1501</item>
+        <item>软件1502</item>
+        <item>计算机1501</item>
+        <item>计算机1502</item>
+    </string-array>
+</resources>
