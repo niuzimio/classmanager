@@ -20,8 +20,7 @@ public class UserDao extends SQLiteOpenHelper {
     public final static String LOGIN_CLASS= "cla";
     public final static String LOGIN_POWER = "power";
 
-
-
+    
     public UserDao(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
